@@ -1,0 +1,6 @@
+基于linux系统mqtt连接至阿里云物联网平台测试
+git clone
+mkdir build.mqtt
+cd build.mqtt
+cmake .. && make
+./mqtt.app/aiot_c_demo
